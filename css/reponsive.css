@@ -1,0 +1,165 @@
+@media (max-width:576px){
+	.container{
+		width:90%;
+	}
+	.col-lg-2{
+		width:50%;
+	}
+	.col-lg-6{
+		width:100%;
+	}
+	.col-lg-4{
+		width:100%;
+	}
+	.col-lg-8{
+		width:100%;
+	}
+	.d-sm-none{
+		display:none;
+	}
+	.d-sm-block{
+		display:block;
+	}
+	.navbar-icon{
+		display:block;
+		text-align:end;
+	}
+	.aboutcontent{
+		padding:0;
+	}
+	.headcontent{
+		width:100%;
+	}
+	.headcontent h1{
+		font-size:26px;
+	}
+	p{
+		text-align:justify;
+	}
+	.website{
+		margin-bottom:20px;
+	}
+	.website h2{
+		font-size:18px;
+	}
+	.contact .box-container .box{
+		min-height:24vh;
+	}
+	.footer{
+		text-align:center;
+	}
+	.contact-all{
+		text-align:center;
+		margin-top:20px;
+	}
+	.designer p{
+		text-align:center
+	}
+}
+
+@media (min-width:576px) and (max-width:992px){
+	.container{
+		width:90%;
+	}
+	.col-lg-2{
+		width:33.33%;
+	}
+	.col-lg-6{
+		width:100%;
+	}
+	.col-lg-4{
+		width:100%;
+	}
+	.col-lg-8{
+		width:100%;
+	}
+	.col-md-6{
+		width:50%;
+	}
+	.d-md-none{
+		display:none;
+	}
+	.d-md-block{
+		display:block;
+	}
+	.order-md-1{
+		order:1;
+	}
+	.order-md-2{
+		order:2;
+	}
+	.navbar-icon{
+		display:block;
+		text-align:end;
+	}
+	.aboutcontent{
+		padding:0;
+	}
+	.headcontent{
+		width:100%;
+	}
+	.headcontent h1{
+		font-size:46px;
+	}
+	p{
+		text-align:justify;
+		font-size:20px;
+	}
+	.website{
+		margin-bottom:20px;
+	}
+	.contact .box-container .box{
+		min-height:24vh;
+	}
+}
+@media (min-width:992px) and (max-width:1200px){
+	.nav ul li,.download-cv a{
+		font-size:10px;
+	}
+	.col-mdx-6{
+		width:50%
+	}
+	.aboutcontent{
+		padding:0;
+	}
+}
+/*---------nav-----*/
+@media(max-width:900px) {
+	.hamburger {
+		display: block;
+	}
+	.hamburger.active .bar:nth-child(2) {
+		opacity: 0;
+		}
+	.hamburger.active .bar:nth-child(1) {
+		 transform: translateY(8px) rotate(45deg);
+		}
+	.hamburger.active .bar:nth-child(3) {
+		 transform: translateY(-8px) rotate(-45deg);
+		}
+.nav-menu {
+	position: fixed;
+	left: -100%;
+	top: 80px;
+	gap: 0;
+	flex-direction: column;
+	background:white;
+	width: 100%;
+	text-align: center;
+		}
+.nav ul li{
+	margin: 20px 0;
+	color:#000;
+	width:100%;
+}	
+.nav ul li a{
+	color:#000;
+}	
+.nav-item {
+	margin: 12px 0;
+	/* font-size: 42px; */
+		}
+.nav-menu.active {
+	left: 0;
+		}
+	}
